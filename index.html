@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sedan:ital@0;1&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+  <title>Save the Date</title>
+
+  <style>
+
+  </style>
+
+
+</head>
+
+<body>
+  <div class="contenedor">
+    <div class="formulario">
+      <h1 class="h1">Acompañanos a revelar el sexo del bebe</h1>
+      <form class="form-into" name="contact" method="POST" data-netlify="true" autocomplete="off" netlify>
+        <div class="checkbox">
+          <h2 class="label-banner">Confirmar asistencia:</h2>
+          <div class="opciones">
+            <label>
+              <input type="checkbox" name="opcion" value="si"> Si
+            </label>
+            <label>
+              <input type="checkbox" name="opcion" value="no"> No
+            </label>
+          </div>
+        </div>
+
+        <!-- <label for="nombre" class="label-banner">Asistira : </label> -->
+        <!-- <input class="input-box" type="text" id="nombre" name="nombre" placeholder="Vote Aqui" required /> -->
+        <label for="nombre" class="label-banner">Nombre y apellido de quienes asistirán:</label>
+        <input class="input-box" type="text" id="nombre" name="nombre" placeholder="Type Here ..." required />
+        <input type="submit" value="Enviar" class="boton" />
+      </form>
+    </div>
+    <div class="contenedor-derecha">
+      <h1 class="h1-d">Calle Falsa, 1234</h1>
+      <h2 class="h2-d">Jueves 24, De Febrero</h2>
+    </div>
+    <div class="contenedor-bajo">
+      <h3 class="h1-d">Comentarios, Sugerencias</h3>
+      <h3 class="h2-d" id="textoh2">Detalles sobre el evento, Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Dolore eos velit architecto vel commodi cum, nemo est ullam! Fuga, commodi.</h3>
+    </div>
+
+    <div class="contenedor-ubicacion">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.776181450041!2d-58.39518638900235!3d-34.60982077283919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac2cd859503%3A0x75cdafaaef2b946!2sCongreso%20de%20la%20Naci%C3%B3n%20Argentina!5e0!3m2!1ses!2sar!4v1713108191179!5m2!1ses!2sar"
+        width="250" height="175" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+    <img src="./img/cora.jfif" alt="Imagen de fondo" />
+  </div>
+  <!-- CONTADOR -->
+  <div id="contador">
+    <div id="numeros">
+      <span id="dias"></span>
+      <span id="horas"></span>
+      <span id="minutos"></span>
+      <span id="segundos"></span>
+    </div>
+    <div id="tiempo-letras">
+      <span id="label-dias">Días</span>
+      <span id="label-horas">Hs</span>
+      <span id="label-minutos">Min</span>
+      <span id="label-segundos">Seg</span>
+    </div>
+    <div class="creditos">
+      <p>About me:</p>
+      <a href="https://sq-portafolio.netlify.app/">ITVastian</a>
+    </div>
+  </div>
+  <!-- CONTADOR -->
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
